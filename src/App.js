@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ToDoList from './code/todolist';
+import Header from './code/header';
 
 function App() {
   return (
     <div className="wrapper">
-      lexe
+      <Header />
+      <ToDoList />
     </div>
   );
 }
